@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #e5e5e5;
+}
+/* NAVIGATION BAR STYLING STARTS */
+#navbar{
+    background: #0F4871;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+    
+.navlinks{
+    width: 50%;
+}
+.navlinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.navlinks ul a{
+    color: white;
+    text-decoration: none;
+}
+.navlinks ul a:hover{
+    color: #FFA500;
+}
+.logo{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.main-logo svg{
+    height: 40px;
+}
+.logo .name{
+    line-height: 100%;
+    margin-right: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-search{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-search input{
+    flex-grow: 2;
+    border: none;
+    height: 28px;
+}
+.nav-search svg:hover{
+    cursor: pointer;
+
+}
+.search-icon{
+    position: relative;
+    right: 20px;
+}
+
+.dropdown{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FFA500;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+/* NAVIGATION BAR STYLING ENDS */
+
+/* heading section styling */
+.heading{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+.fword{
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+.sword{
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+}
+
+/* adopt pet section style */
+.adopt-pet{
+    height: 40vh;
+    background-color: #e5e5e5;
+}
+/* top section style */
+#top{
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+.dog-image{
+    display: flex;
+}
+.dog-image img{
+    position: relative;
+    bottom: 2.2rem;
+}
+.search-pet{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.search-text{
+    font-size: 20px;
+    color: #989898;
+    font-weight: 500;
+    line-height: 1.5em;
+    width: 40%;
+    height: auto;
+}
+/* search container style */
+.search-container{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar{
+    height: 30%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}
+.search-btn{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    border-radius: 30px 0 0 30px;
+    padding: 5px;
+}
+.search-btn:hover{
+    cursor: pointer;
+}
+.search-btn svg{
+    margin: auto;
+}
+.search-input{
+    height: 100%;
+}
+.search-input input{
+    border-radius: 0 30px 30px 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.pet-options{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px sold green; */
+    margin-right: 4rem;
+}
+.pet-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+.pet-type:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* pet about section */
+.pet-about{
+    margin: 0 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 5px 10px;
+    flex: .8;
+}
+.about-heading{
+    /* border: 2px solid red; */
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFA500;
+}
+.about-heading:hover{
+    cursor: pointer;
+}
+.about-text{
+    /* border: 2px solid maroon; */
+    color: #989898;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    height: 60%;
+}
+.about-images{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1.5;
+}
+
+/* care taker styling */
+.care-taker{
+    /* border: 2px solid pink; */
+    margin: 3rem 3rem 0 3rem;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.care-persons{
+    /* border: 2px solid green; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+}
+.care-taker-info{
+    width: 75%;
+    padding: 10px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* border: 2px solid black; */
+}
+.care-taker-heading{
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFA500;
+}
+.care-taker-heading:hover{
+    cursor: pointer;
+}
+.care-taker-text{
+    color: #989898;
+    font-size: 18px;
+    font-weight: 500;
+}
+.adopt-pet-btn{
+    width: 15%;
+    height: 20%;
+    display: flex;
+    background-color: #FFA500;
+    border-radius: 30px;
+    margin-right: 5rem;
+    transition: all 0.2s ease-in-out;
+}
+.adopt-pet-btn:hover{
+    background-color: #0F4871;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.adopt-pet-btn a{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+/* user pet styling */
+#user-pets{
+    padding: 10px;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem 3rem 3rem;
+}
+.user-pets-heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFA500;
+}
+.pet-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.user-pet-info{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.user-pet-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+.user-pet-name{
+    background-color: #0F4871;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.user-pet-name:hover{
+    cursor: pointer;
+}
+.user-pet-update{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px;
+    height: 80%;
+}
+.update-heading{
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFA500;
+}
+.update-heading:hover{
+    cursor: pointer;
+}
+.update-text{
+    color: #989898;
+    font-size: 18px;
+    font-weight: 500;
+}
+.user-pet-care-taker{
+    width: 15%;
+    height: 20%;
+    display: flex;
+    background-color: #FFA500;
+    border-radius: 30px;
+    margin-right: 5rem;
+    transition: all 0.2s ease-in-out;
+}
+.user-pet-care-taker:hover{
+    background-color: #0F4871;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.user-pet-care-taker a{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}

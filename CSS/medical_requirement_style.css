@@ -19,7 +19,6 @@
     color: white;
     z-index: 10;
 }
-    
 .navlinks{
     width: 50%;
 }
@@ -58,7 +57,6 @@
     align-items: center;
     margin-right: 3rem;
 }
-
 .main-logo{
     display: flex;
     justify-content: space-between;
@@ -77,7 +75,6 @@
     position: relative;
     right: 20px;
 }
-
 .dropdown{
     margin-top: 10px;
     border-radius: 10px;
@@ -88,19 +85,16 @@
     z-index: 10;
     display: none;
 }
-
 .dropdown div{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
 .dropdown div:hover{
     background-color: #ddd;
     cursor: pointer;
 }
-
 .show {
     display: block;
 }
@@ -119,7 +113,6 @@
     font-weight: 500;
     padding: 15px;
 }
-
 /* main section style */
 #medical-requirements{
     height: 80vh;

@@ -27,7 +27,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 2px solid black; */
 }
 .account-login{
     height: 12%;
@@ -96,7 +95,6 @@ form input{
 .forgot-pass{
     text-align: end;
     flex-grow: .5;
-    /* border: 2px solid white; */
 }
 .forgot-pass a{
     text-decoration: none;

@@ -27,7 +27,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 2px solid black; */
 }
 .account-SignUp{
     height: 12%;

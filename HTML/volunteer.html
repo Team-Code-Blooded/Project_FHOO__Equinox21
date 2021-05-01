@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHOO | Volunteer</title>
+    <link rel="stylesheet" href="/CSS/volunteer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <div class="main-logo">
+                <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.125 1.91009C17.625 0.830088 19.365 0.290088 21.33 0.290088C22.41 0.290088 23.595 0.575088 24.885 1.17509C26.175 1.76009 27.195 2.45009 27.945 3.24509C29.49 5.16509 30.135 7.40009 29.91 9.95009C29.67 12.5001 28.83 14.4951 27.375 15.9051L15.99 27.2901C15.705 27.5751 15.345 27.7101 14.925 27.7101C14.505 27.7101 14.16 27.5751 13.875 27.2901C13.7365 27.1534 13.6277 26.9896 13.5554 26.8089C13.4831 26.6283 13.4489 26.4346 13.455 26.2401C13.455 25.8201 13.59 25.4601 13.875 25.1751L20.76 18.2901C21.135 17.9601 21.135 17.6151 20.76 17.2401C20.385 16.8651 20.04 16.8651 19.71 17.2401L12.825 24.1251C12.6862 24.2649 12.5199 24.3744 12.3365 24.4467C12.1532 24.519 11.9569 24.5525 11.76 24.5451C11.34 24.5451 10.995 24.4101 10.71 24.1251C10.5715 23.9884 10.4627 23.8246 10.3904 23.6439C10.3181 23.4633 10.2839 23.2696 10.29 23.0751C10.29 22.6551 10.425 22.2951 10.71 22.0101L17.595 15.1251C18 14.7501 18 14.3751 17.595 14.0001C17.25 13.6251 16.92 13.6251 16.545 14.0001L9.66001 20.9601C9.51961 21.0978 9.35301 21.2059 9.17008 21.278C8.98714 21.3502 8.7916 21.3849 8.59501 21.3801C8.17501 21.3801 7.81501 21.2451 7.50001 20.9601C7.20001 20.6751 7.05001 20.3301 7.05001 19.9101C7.05001 19.4901 7.21501 19.1151 7.54501 18.7851L14.445 11.8851C14.82 11.5101 14.82 11.1651 14.445 10.8351C14.07 10.5051 13.71 10.5051 13.38 10.8351L6.42001 17.7501C6.09001 18.0501 5.74501 18.2151 5.37001 18.2151C4.95001 18.2151 4.59001 18.0651 4.32001 17.7501C4.03501 17.4501 3.88501 17.0901 3.88501 16.6701C3.88501 16.2501 4.03501 15.9051 4.32001 15.6201C8.91001 11.0001 11.745 8.21009 12.825 7.17509L18.165 12.4551C18.75 13.0101 19.425 13.2951 20.25 13.2951C21.3 13.2951 22.125 12.8751 22.74 12.0351C23.16 11.4201 23.31 10.7451 23.19 9.99509C23.07 9.24509 22.755 8.61509 22.245 8.09009L16.125 1.91009ZM19.215 11.4051L12.825 5.00009L2.20501 15.6201C0.94501 14.3451 0.22501 12.3951 0.0600105 9.74009C-0.10499 7.10009 0.61501 4.80509 2.20501 2.88509C3.99001 1.11509 6.12001 0.215088 8.59501 0.215088C11.085 0.215088 13.2 1.11509 14.925 2.88509L21.33 9.29009C21.615 9.57509 21.75 9.92009 21.75 10.3401C21.75 10.7601 21.615 11.1201 21.33 11.4051C21.045 11.6751 20.7 11.8251 20.25 11.8251C19.845 11.8251 19.5 11.6751 19.215 11.4051Z" fill="white"/>
+                </svg>
+                <span class="name">FHOO</span>     
+            </div>
+           <div class="logo-text"><p>For happiness of others</p></div>
+        </div>
+            <div class="navlinks">
+                <ul>
+                    <li>
+                        <a href="#" class="nav-btn" onclick="Redirect_home();">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="myFunction_1(event)" class="nav-btn dropdown-menu">Health</a>
+                        <div class="dropdown">
+                            <div id="blood-bank" onclick="Redirect_blood();">Blood Bank</div>
+                            <div id="food-bank" onclick="Redirect_food();">Food Bank</div>
+                            <div id="medical-requirements" onclick="Redirect_medical();">Medical Requirements</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="myFunction_2(event)" class="nav-btn dropdown-menu">Education</a>
+                        <div class="dropdown">
+                            <div id="volunteer">Volunteer</div>
+                            <div id="donate">Donate</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-btn">Virtual Pet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-btn">Launch Request</a>
+                    </li>
+                    <li>
+                        <a onclick="Redirect_login();" class="nav-btn login">Login</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="nav-search">
+
+                <input type="text" placeholder="Search...">
+                <svg class = "search-bg"width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="28" height="28" fill="#FFA500"/>
+                </svg>
+                <svg class="search-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.30903 8.01603C6.41045 8.73391 5.27109 9.08049 4.12496 8.98457C2.97883 8.88865 1.91293 8.35753 1.14617 7.50027C0.379405 6.64302 -0.0300168 5.52471 0.00198856 4.37502C0.0339939 3.22533 0.504997 2.13153 1.31827 1.31827C2.13153 0.504997 3.22533 0.0339939 4.37502 0.00198856C5.52471 -0.0300168 6.64302 0.379405 7.50027 1.14617C8.35753 1.91293 8.88865 2.97883 8.98457 4.12496C9.08049 5.27109 8.73391 6.41045 8.01603 7.30903L11.854 11.146C11.9479 11.2399 12.0007 11.3673 12.0007 11.5C12.0007 11.6328 11.9479 11.7601 11.854 11.854C11.7601 11.9479 11.6328 12.0007 11.5 12.0007C11.3673 12.0007 11.2399 11.9479 11.146 11.854L7.31003 8.01603H7.30903ZM8.00003 4.50003C8.00003 4.0404 7.9095 3.58528 7.73361 3.16064C7.55772 2.736 7.29991 2.35016 6.9749 2.02516C6.6499 1.70015 6.26406 1.44234 5.83942 1.26645C5.41478 1.09056 4.95966 1.00003 4.50003 1.00003C4.0404 1.00003 3.58528 1.09056 3.16064 1.26645C2.736 1.44234 2.35016 1.70015 2.02516 2.02516C1.70015 2.35016 1.44234 2.736 1.26645 3.16064C1.09056 3.58528 1.00003 4.0404 1.00003 4.50003C1.00003 5.42829 1.36878 6.31853 2.02516 6.9749C2.68153 7.63128 3.57177 8.00003 4.50003 8.00003C5.42829 8.00003 6.31853 7.63128 6.9749 6.9749C7.63128 6.31853 8.00003 5.42829 8.00003 4.50003Z" fill="black"/>
+                </svg>     
+            </div>
+    </nav>
+
+    <section class="quote">Education is simply the soul of a society as it passes from one generation to another</section>
+
+    <main id="volunteer">
+        <section class="info">
+            <div class="info-heading">Our collaborations near you</div><br><br>
+            <div class="volunteer-items">
+                <div class="volunteer-item">
+                    <img src="/Assets/Rectangle 61.png" class = "item-img" alt="medical-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <button class="button">Volunteer</button>
+                </div>
+                <div class="volunteer-item">
+                    <img src="/Assets/Rectangle 60.png" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <button class="button">Volunteer</button>
+                </div>
+                <div class="volunteer-item">
+                    <img src="/Assets/school.jpg" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <button class="button">Volunteer</button>
+                </div>
+                <div class="volunteer-item">
+                    <img src="/Assets/school3.jpg" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <button class="button">Volunteer</button>
+                </div>
+            </div>
+            <div class="headings">
+                <h1 class="heading1">St. Mary public School</h1>
+                <h1 class="heading2">Sanskriti public School</h1>
+                <h1 class="heading3">Allons Public School</h1>
+                <h1 class="heading4">Delhi Public School</h1>
+            </div>
+        </section>
+    </main>
+</body>
