@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("Assets/home\ page\ background.jpeg");
+    background: url("/Assets/home\ page\ background.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -216,7 +216,7 @@ nav{
 
 /* CONTACT SECTION STYLING STARTS */
 .contact-section{
-    background: url(Assets/contact\ background.png);
+    background: url(/Assets/contact\ background.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Poppins;
