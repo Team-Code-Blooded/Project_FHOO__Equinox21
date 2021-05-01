@@ -40,4 +40,4 @@ We learned a lot of things while working on this project:
 * Got to know about social issues, problems in the real world
 
 ## Challenges faced
-* Difficulty in correcting errors in code and implementing some features of the website within the time crunch
+* Difficulty in fixing errors and implementing some features of the website within this time crunch
