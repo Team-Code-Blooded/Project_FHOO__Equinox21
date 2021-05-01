@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/Assets/home\ page\ background.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+}
+
+/* NAVBAR STYLING STARTS */
+nav{
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+    
+#navbar{
+    background-color: rgb(23, 69, 102);
+}
+
+.navlinks{
+    margin-left: 17rem;
+    width: 40%;
+}
+.navlinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.navlinks ul a{
+    color: white;
+    text-decoration: none;
+}
+.navlinks ul a:hover{
+    color: #FFA500;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.main-logo svg{
+    height: 40px;
+}
+.logo .name{
+    line-height: 100%;
+    margin-right: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-search{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-search input{
+    flex-grow: 2;
+    border: none;
+    height: 28px;
+}
+.nav-search svg:hover{
+    cursor: pointer;
+
+}
+.search-icon{
+    position: relative;
+    right: 20px;
+}
+
+.dropdown{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FFA500;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+.dropdown div{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown div:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+/* NAVBAR STYLING ENDS */
+
+
+/* HOME PAGE STYLING STARTS */
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+    height: 100vh;
+}
+
+.home-heading{
+    font-size: 80px;
+    line-height: 100px;
+    color: white;
+    font-family: Pompiere;
+}
+.home-heading span{
+    color: #FFA500;
+}
+.home-text{
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    font-family: Pompiere;
+}
+.join-btn{
+    border: none;
+    background-color: #FFA500;
+    color: white;
+    padding: 11px 50px;
+    font-size: 24px;
+    line-height: 36px;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+.join-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+}
+.hone-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-img{
+    position: relative;
+    top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HOME PAGE STYLING ENDS */
+
+
+/* HERO SECTION STYLING STARTS */
+.hero-section{
+    margin: 0 3rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Pompiere;
+    line-height: 20px;
+    width: 40%;
+    height: 35%;
+}
+.hero-head{
+    font-size: 80px;
+    color: #FFA500;
+}
+.hero-text{
+    font-size: 22px;
+    line-height: 25px;
+}
+.hero-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.work img{
+    width: 50px;
+}
+.work p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.lives-rescue, .funds, .volunteers{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* HERO SECTION STYLING ENDS */
+
+/* CONTACT SECTION STYLING STARTS */
+.contact-section{
+    background: url(/Assets/contact\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+    height: 80vh;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact-heading{
+    font-size: 70px;
+    line-height: 80px;
+}
+.main-contact{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-left{
+    width: 50%;
+    height: 70%;
+}
+.contact-left form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-divs{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-divs p, .form-divs input{
+    font-size: 24px;
+    width: 50%;
+}
+.form-divs input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+}
+.form-divs p{
+    text-align: center;
+}
+.submit div{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-top: 1-px;
+    transition: all 0.1s ease-in;
+}
+.submit div:hover{
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#msg{
+    font-size: 20px;
+    margin-left: 225px;
+    margin-top: 30px;
+}
+.contact-right{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-right .phone{
+    font-size: 24px;
+    color: #FFA500;
+    font-weight: 600;
+}
+.contact-right .right-heads{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-right .right-text{
+    color: grey;
+}
+/* CONTACT SECTION STYLING ENDS */
+
+/* FOOTER STYLING STARTS */
+footer{
+    font-family: Poppins;
+    height: 18vh;
+    background-color: #FFA500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.footer-right{
+    width: 20%;
+    text-align: center;
+}
+.left-heading{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.left-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.left-text:hover{
+    cursor: pointer;
+}
+/* FOOTER STYLING ENDS */
