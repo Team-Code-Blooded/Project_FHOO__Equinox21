@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* NAVIGATION BAR STYLING STARTS */
+#navbar{
+    background: #0F4871;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 10;
+}
+    
+.navlinks{
+    width: 50%;
+}
+.navlinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.navlinks ul a{
+    color: white;
+    text-decoration: none;
+}
+.navlinks ul a:hover{
+    color: #FFA500;
+}
+.logo{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.main-logo svg{
+    height: 40px;
+}
+.logo .name{
+    line-height: 100%;
+    margin-right: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-search{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-search input{
+    flex-grow: 2;
+    border: none;
+    height: 28px;
+}
+.nav-search svg:hover{
+    cursor: pointer;
+
+}
+.search-icon{
+    position: relative;
+    right: 20px;
+}
+
+.dropdown{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FFA500;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+.dropdown div{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown div:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+/* NAVIGATION BAR STYLING ENDS */
+
+/* MAIN SECTION STYLING STARTS */
+
+main{
+    height: 90vh;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+#user-nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    background-color: white;
+}
+#user-nav ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+#user-nav ul li a{
+    color: black;
+    font-weight: 600;
+    transition: all 0.1s;
+}
+#user-nav ul li a:hover{
+    border-bottom: 3px solid #FFA500;
+}
+.location{
+    font-weight: 500;
+}
+.main-sections{
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+/* LEFT SECTION STYLING STARTS */
+.left{
+    height: 95%;
+    align-self: center;
+    margin-left: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+}
+.user-image, .fullname, .location{
+    text-align: center;
+}
+.user-image{
+    padding: 10px;
+    display: flex;
+}
+.user-image img{
+    width: 60%;
+    margin: auto;
+}
+.fullname{
+    font-size: 30px;
+    color: #FFA500;
+    font-weight: 600;
+}
+.about-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFA500;
+    padding: 0 8px;
+}
+.about-text{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 8px;
+}
+.edit-btn{
+    text-align: end;
+    padding: 0 2px;
+}
+.edit-btn img:hover{
+    cursor: pointer;
+}
+/* LEFT SECTION STYLING ENDS */
+
+/* RIGHT SECTION STYLING STARTS */
+.right{
+    align-self: center;
+    width: 65%;
+    /* border: 2px solid red; */
+    height: 95%;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.right .cards{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards .date{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #0F4871;
+    padding: 15px 0;
+}
+.day{
+    align-self: flex-start;
+    color: #FFA500;
+    font-size: 30px;
+}
+.month{
+    align-self: flex-end;
+    color: white;
+    font-size: 30px;
+}
+.cards .update-text{
+    margin-right: 1rem;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 80%;
+}
+.update-text p{
+    margin: auto;
+}
+.update-text p a{
+    color: #FFA500;
+    font-weight: 500;
+}
+/* RIGHT SECTION STYLING ENDS */
+/* MAIN SECTION STYLING ENDS */
