@@ -99,6 +99,7 @@ body{
 }
 .dropdown div:hover{
     background-color: #ddd;
+    border-radius: 10px;
     cursor: pointer;
 }
 .show {
