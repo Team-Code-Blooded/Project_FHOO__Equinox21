@@ -4,7 +4,7 @@
 ## About
 Nowadays, as we know, it is evident many people are in desperate need of some kind of help and some people want to help them, but the problem is that those who want to help are 
 unable to provide help efficiently up to their desire due of lack of resources or some kind of platform through which they could be connected to the people who need any sort of 
-help. As we can see, it's not only the human beings which are in desperate need of help, there are many stray animals thata are needed to be taken care of, so again the same 
+help. As we can see, it's not only the human beings which are in desperate need of help, there are many stray animals that are needed to be taken care of, so again the same 
 problem still persists.
 
 ## Solution
