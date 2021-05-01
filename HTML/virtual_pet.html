@@ -21,30 +21,29 @@
             <div class="navlinks">
                 <ul>
                     <li>
-                        <a href="#" class="nav-btn">Home</a>
+                        <a onclick="Redirect_home();" href="#" class="nav-btn">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-btn dropdown-menu">Health</a>
+                        <a onclick="myFunction_1(event)" href="#" class="nav-btn dropdown-menu">Health</a>
                         <div class="dropdown">
-                            <div id="blood-bank">Blood Bank</div>
-                            <div id="food-bank">Food Bank</div>
-                            <div id="medical-requirements">Medical Requirements</div>
+                            <div onclick="Redirect_blood();" id="blood-bank">Blood Bank</div>
+                            <div onclick="Redirect_food();" id="food-bank">Food Bank</div>
+                            <div onclick="Redirect_medical();" id="medical-requirements">Medical Requirements</div>
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="nav-btn dropdown-menu">Education</a>
+                        <a onclick="myFunction_2(event)" href="#" class="nav-btn dropdown-menu">Education</a>
                         <div class="dropdown">
-                            <div id="volunteer">Volunteer</div>
-                            <div id="donate">Donate</div>
+                            <div onclick="Redirect_volunteer();" id="volunteer">Volunteer</div>
+                            <div onclick="Redirect_donate();" id="donate">Donate</div>
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="nav-btn">Virtual Pet</a>
+                        <a onclick="Redirect_virtualpet();" href="#" class="nav-btn">Virtual Pet</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-btn">Launch Request</a>
+                        <a onclick="Redirect_launchreq();" href="#" class="nav-btn">Launch Request</a>
                     </li>
-                    <li><a href="#" class="logout">Logout</a></li>
                 </ul>
 
             </div>
@@ -162,6 +161,6 @@
             <div class="user-pet-care-taker"><a href="#">Contact Care Taker</a></div>
         </section>
     </main>
-    <script type="text/javascript" src="/Js/App.js"></script>
+    <script src="/Js/App.js"></script>
 </body>
 </html>

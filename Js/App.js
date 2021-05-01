@@ -61,6 +61,21 @@ function Redirect_userdashboard() {
     location.href = "/HTML/user_dashboard.html";
 }
 
+function Redirect_volunteer() {
+    location.href = "/HTML/volunteer.html";
+}
+
+function Redirect_donate() {
+    location.href = "/HTML/donate_edu.html";
+}
+
+function Redirect_virtualpet() {
+    location.href = "/HTML/virtual_pet.html";
+}
+
+function Redirect_launchreq() {
+    location.href = "/HTML/launch_request.html";
+}
 // Success message and reset form
 submit.addEventListener("click", function() {
     msg.innerHTML = "Your Message has been sent successfully.";
