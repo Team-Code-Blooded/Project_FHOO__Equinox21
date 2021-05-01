@@ -25,3 +25,19 @@ There are many ways in which people can contribute to our portal:
 * Registered people can raise requests for seeking any kind of help from the platform or FHOO society.
 * Contributors will be rewarded with **Virtual Medals** and names will be displayed on a leader board to motivate them as well as other people to contribute to the betterment 
 of society.
+
+## Tech Stack Used
+* **Programming Languages -** HTML5, CSS3, JavaScript 
+* **Tools Used -** Figma, Adobe Illustrator
+
+## What did we learn?
+We learned a lot of things while working on this project:
+* Time management
+* Working as a team
+* Utilising resources in an efficient way
+* New concepts of programming
+* Improved on our problem-solving skills
+* Got to know about social issues, problems in the real world
+
+## Challenges faced
+* Difficulty in correcting errors in code and implementing some features of the website within the time crunch
