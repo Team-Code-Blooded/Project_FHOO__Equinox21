@@ -30,35 +30,35 @@ window.onclick = function(event) {
 }
 
 function Redirect_home() {
-    location.href = "HTML/home_page.html";
+    location.href = "/index.html";
 }
 
 function Redirect_login() {
-    location.href = "HTML/login_page.html";
+    location.href = "/HTML/login_page.html";
 }
 
 function Redirect_afterlogin() {
-    location.href = "HTML/afterlogin_homepage.html";
+    location.href = "/HTML/afterlogin_homepage.html";
 }
 
 function Redirect_signup() {
-    location.href = "HTML/signup.html";
+    location.href = "/HTML/signup.html";
 }
 
 function Redirect_medical() {
-    location.href = "HTML/medical_requirement.html";
+    location.href = "/HTML/medical_requirement.html";
 }
 
 function Redirect_blood() {
-    location.href = "HTML/blood_bank.html";
+    location.href = "/HTML/blood_bank.html";
 }
 
 function Redirect_food() {
-    location.href = "HTML/food_bank.html";
+    location.href = "/HTML/food_bank.html";
 }
 
 function Redirect_userdashboard() {
-    location.href = "HTML/user_dashboard.html";
+    location.href = "/HTML/user_dashboard.html";
 }
 
 // Success message and reset form

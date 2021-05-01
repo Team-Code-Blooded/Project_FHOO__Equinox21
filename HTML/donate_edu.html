@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FHOO | Food Bank</title>
-    <link rel="stylesheet" href="/CSS/food_bank_style.css">
+    <title>FHOO | Donate</title>
+    <link rel="stylesheet" href="/CSS/donate_edu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav id="navbar">
         <div class="logo">
@@ -31,7 +33,7 @@
                         <a href="#" onclick="myFunction_1(event)" class="nav-btn dropdown-menu">Health</a>
                         <div class="dropdown">
                             <div id="blood-bank" onclick="Redirect_blood();">Blood Bank</div>
-                            <div id="food-bankk" onclick="Redirect_food();">Food Bank</div>
+                            <div id="food-bank" onclick="Redirect_food();">Food Bank</div>
                             <div id="medical-requirements" onclick="Redirect_medical();">Medical Requirements</div>
                         </div>
                     </li>
@@ -48,6 +50,9 @@
                     <li>
                         <a href="#" class="nav-btn">Launch Request</a>
                     </li>
+                    <li>
+                        <a onclick="Redirect_login();" class="nav-btn login">Login</a>
+                    </li>
                 </ul>
 
             </div>
@@ -63,28 +68,54 @@
             </div>
     </nav>
 
-    <section class="quote">Cheapest to Free is our goal</section>
+    <section class="quote"></section>
 
-    <main id="food-bank">
+    <main id="volunteer">
         <section class="info">
-            <div class="info-heading">Our connections near you</div>
-            <div class="food-bank-items">
-                <div class="bank-item">
-                    <img class = "item-img"src="/Assets/food_1.png" alt="grocery-img">
-                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugiat dignissimos dolorum nam labore iusto saepe earum amet itaque eos doloremque consectetur, aspernatur modi consequuntur delectus et repellat voluptate recusandae <a href="#">Read more..</a></p>
+            <div class="info-heading"></div><br><br>
+            <button class="top-btn">An individual</button>
+            <button class="top-btn2">An organization</button>
+            <div class="volunteer-items">
+                <div class="volunteer-item">
+                    <img src="/Assets/donate1.png" class = "item-img" alt="medical-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <div class="button-grp">
+                        <button>Contact</button>
+                        <button>Donate</button>
+                    </div>
                 </div>
-                <div class="bank-item">
-                    <img src="/Assets/food_2.png" alt="food image" class="item-img">
-                    <p class="item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos minus nam ducimus eveniet rerum iste nulla amet, numquam quasi officiis, blanditiis suscipit possimus. Ad laboriosam velit maiores nostrum impedit incidunt <a href="#">Read more..</a></p>
+                <div class="volunteer-item">
+                    <img src="/Assets/donate2.png" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <div class="button-grp">
+                        <button>Contact</button>
+                        <button>Donate</button>
+                    </div>
                 </div>
-                <div class="bank-item">
-                    <img src="/Assets/food_2.png" alt="food image" class="item-img">
-                    <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae modi aut reprehenderit quia accusamus magnam iste labore, magni suscipit repellendus, veniam at. Pariatur accusamus iusto quae at vel autem eos <a href="#">Read more..</a></p>
+                <div class="volunteer-item">
+                    <img src="/Assets/donate3.png" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <div class="button-grp">
+                        <button>Contact</button>
+                        <button>Donate</button>
+                    </div>
+                </div>
+                <div class="volunteer-item">
+                    <img src="/Assets/donate4.png" alt="medical image" class="item-img">
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada enim curabitur ut integer facilisi. <a href="#">Read more..</a></p>
+                    <div class="button-grp">
+                        <button>Contact</button>
+                        <button>Donate</button>
+                    </div>
                 </div>
             </div>
+            <div class="headings">
+                <h1 class="heading1">Mark Hussain</h1>
+                <h1 class="heading2">Arman Elbert</h1>
+                <h1 class="heading3">Trevor HK</h1>
+                <h1 class="heading4">Thomas Kelvin</h1>
+            </div>
         </section>
-        <section class="map"><img src="/Assets/map_2.png" alt="map_img"></section>
     </main>
-    <script type="text/javascript" src="/Js/App.js"></script>
+    <script src="/Js/App.js"></script>
 </body>
-</html>
