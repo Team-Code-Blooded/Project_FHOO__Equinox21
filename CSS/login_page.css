@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    background-color: #0F4871E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #00325640;
+    height: 85vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+.account-login{
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.account-login p{
+    color: white;
+    text-align: center;
+}
+.account-login p a{
+    text-decoration: none;
+    color: #FFA500;
+    font-weight: 500;
+}
+.login-btn{
+    text-align: center;
+}
+.login-btn button{
+    width: 85%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #FFA500;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+.login-btn button:hover{
+    cursor: pointer;
+}
+.logo, .account-login, .login-heading, form{
+    width: 80%;
+}
+.logo{
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #FFA500;
+}
+.login-text{
+    color: white;
+    line-height: 30px;
+}
+.pass, .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: .75;
+}
+.email p, .pass p{
+    color: white;
+    font-size: 20px;
+}
+form input{
+    font-size: 18px;
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.forgot-pass{
+    text-align: end;
+    flex-grow: .5;
+    /* border: 2px solid white; */
+}
+.forgot-pass a{
+    text-decoration: none;
+    color: #FFA500;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHOO | Login</title>
+    <link rel="stylesheet" href="/CSS/login_page.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo">
+            <img src="/Assets/main logo.png" alt="company logo">
+        </div>
+        <div class="login-heading">
+            <p class="heading">Login</p>
+            <p class="login-text">Enter your login credentials</p>
+        </div>
+        <form action="#">
+            <div class="email">
+                <p>Email</p>
+                <input type="email" name="email" id="email-address" required>
+            </div>
+            <div class="pass">
+                <p>Password</p>
+                <input type="password" name="password" id="user-pass" required>
+            </div>
+            <div class="forgot-pass"><a href="#">Forgot password?</a></div>
+        </form>
+        <div class="account-login">
+            <div class="login-btn"><button onclick="Redirect_afterlogin();">Log In</button></div>
+            <p>Don't have an account? <a href="#" onclick="Redirect_signup();">SignUp</a></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="/Js/App.js"></script>
+</body>
+</html>
