@@ -41,3 +41,39 @@ We learned a lot of things while working on this project:
 
 ## Challenges faced
 * Difficulty in fixing errors and implementing some features of the website within this time crunch
+
+## Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Abhii-Agarwal09>
+            <img src=https://avatars.githubusercontent.com/u/75776332?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Abhishek Agarwal/>
+            <br />
+            <sub style="font-size:14px"><b>Abhishek Agarwal</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Likkiii>
+            <img src=https://avatars.githubusercontent.com/u/76266365?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Likhit Ajeesh/>
+            <br />
+            <sub style="font-size:14px"><b>Likhit Ajeesh</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/JeetKaushik8055>
+            <img src=https://avatars.githubusercontent.com/u/78296225?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jeet Kaushik/>
+            <br />
+            <sub style="font-size:14px"><b>Jeet Kaushik</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Kushagra2702>
+            <img src=https://avatars.githubusercontent.com/u/82564423?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Kushagra Khanna/>
+            <br />
+            <sub style="font-size:14px"><b>Kushagra Khanna</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
