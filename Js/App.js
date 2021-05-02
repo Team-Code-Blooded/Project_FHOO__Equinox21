@@ -76,6 +76,7 @@ function Redirect_virtualpet() {
 function Redirect_launchreq() {
     location.href = "/HTML/launch_request.html";
 }
+
 // Success message and reset form
 submit.addEventListener("click", function() {
     msg.innerHTML = "Your Message has been sent successfully.";
