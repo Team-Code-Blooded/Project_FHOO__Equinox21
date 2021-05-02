@@ -42,6 +42,9 @@ We learned a lot of things while working on this project:
 ## Challenges faced
 * Difficulty in fixing errors and implementing some features of the website within the time crunch
 
+## Check out our Project here
+https://fhoo.netlify.app/
+
 ## Contributors
 
 <table>
